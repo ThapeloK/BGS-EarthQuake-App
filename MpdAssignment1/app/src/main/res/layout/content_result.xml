@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+    <LinearLayout
+        android:layout_width="418dp"
+        android:layout_height="733dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteY="-2dp"
+        tools:ignore="MissingConstraints">
+
+        <EditText
+            android:id="@+id/editText"
+            style="@android:style/Widget.Material.EditText"
+            android:layout_width="327dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Search Results for Earth Quakes"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+        <ListView
+            android:id="@+id/result_list"
+            style="@android:style/Widget.Material.Light.ListView"
+            android:layout_width="408dp"
+            android:layout_height="669dp">
+
+        </ListView>
+
+        // NAME:Thapelo Khantsi  ///////
+        // Student Number: S1803437//////////
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,1 +1,2 @@
-# gcuavs-system
+# BSG EarthQ App
+
